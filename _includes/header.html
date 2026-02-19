@@ -1,0 +1,61 @@
+<header class="masthead">
+  <div class="container">
+    <div class="masthead-top">
+      <span class="masthead-date">{{ site.time | date: "%A, %B %-d, %Y" }}</span>
+      <span class="masthead-sponsor">Proudly supported by <a href="{{ '/sponsor' | relative_url }}">WSWF</a></span>
+    </div>
+
+    <div class="masthead-title">
+      <a href="{{ '/' | relative_url }}">
+        <h1>The Witsand Observer</h1>
+      </a>
+      <p class="masthead-tagline" id="rotating-tagline"></p>
+      <script>
+        (function() {
+          var taglines = [
+            "All the News That Fits our Narrative",
+            "Where Every Story Is Front-Page News",
+            "Witsand's Most Trusted Source of Questionable Facts",
+            "Fearless. Independent. Occasionally Accurate.",
+            "600 Readers. 600 Opinions.",
+            "Your Morning Paper, Weather Permitting.",
+            "If It Happened in Witsand, we Probably Exaggerated it.",
+            "We asked around, that counts as research.",
+          ];
+          var el = document.getElementById('rotating-tagline');
+          var current = Math.floor(Math.random() * taglines.length);
+          el.textContent = taglines[current];
+          function syncFooter() {
+            var footerEl = document.getElementById('footer-tagline');
+            if (footerEl) footerEl.textContent = taglines[current];
+            return footerEl;
+          }
+          document.addEventListener('DOMContentLoaded', syncFooter);
+
+          setInterval(function() {
+            var next;
+            do { next = Math.floor(Math.random() * taglines.length); } while (next === current && taglines.length > 1);
+            current = next;
+            var footerEl = document.getElementById('footer-tagline');
+            el.style.opacity = '0';
+            if (footerEl) footerEl.style.opacity = '0';
+            setTimeout(function() {
+              el.textContent = taglines[current];
+              el.style.opacity = '1';
+              if (footerEl) { footerEl.textContent = taglines[current]; footerEl.style.opacity = '1'; }
+            }, 1500);
+          }, 180000);
+        })();
+      </script>
+    </div>
+
+    <nav class="masthead-nav">
+      <a href="{{ '/' | relative_url }}">Headlines</a>
+      <a href="{{ '/archive' | relative_url }}">Archive</a>
+      <a href="{{ '/about' | relative_url }}">About</a>
+      <a href="{{ '/sponsor' | relative_url }}">Our Sponsor</a>
+      <a href="{{ '/submit' | relative_url }}">Submit a Story</a>
+      <a href="{{ '/donate' | relative_url }}">Donate</a>
+    </nav>
+  </div>
+</header>

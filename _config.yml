@@ -1,0 +1,42 @@
+title: The Witsand Observer
+description: "Serving the Peninsula Since 2026"
+url: "https://wswf.co.za"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+
+plugins:
+  - jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclude from build
+exclude:
+  - README.md
+  - WITSAND_CONTEXT.md
+  - CONTRIBUTING.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .github/
+  - serve.sh
+  - node_modules/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"

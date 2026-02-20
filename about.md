@@ -10,7 +10,7 @@ Founded on the back of a napkin in a local bar in 2026, the idea for the Observe
 
 ## Our Mission
 
-To deliver the news that matters to Witsand. All of it. Every story is front-page news, because in a village this size, even a misplaced pair of Crocs on the beach can spark a full-scale debate. Getting accurate information to the 600 very important residents—especially the three housewives who still believe the money lives **in the credit card** and that they alone keep the town running smoothly—is our highest priority.  
+To deliver the news that matters to Witsand. All of it. Every story is front-page news, because in a village this size, even a misplaced pair of Crocs on the beach can spark a full-scale debate. Getting accurate information to the town’s 600 very important residents is our highest priority.
 
 We understand that the fate of the world may hinge on these reports. No pressure.
 
@@ -18,7 +18,7 @@ We understand that the fate of the world may hinge on these reports. No pressure
 
 The Witsand Observer maintains complete editorial independence. The WSWF cannot censor us—coordinating hundreds of sovereign individuals is harder than leading a 15-man detachment to Moody se put. We are, however, always open to suggestions if there happens to be a beer on the table.  
 
-Getting this newspaper up and running required three hours of WhatsApp negotiations, 47 messages debating which beer is best, and one member accidentally sending funds to the wrong address to spin up a server. Democracy, Witsand-style, is slow—but sincere.
+Getting this newspaper up and running required 14 minutes of WhatsApp negotiations, 47 messages debating which beer is best, and 17 minutes of prompting AI. One member accidentally sending funds to the wrong address to spin up a server. Democracy, Witsand-style, is slow—but sincere.
 
 Our reporters undergo rigorous training, which consists primarily of living in Witsand and knowing at least three people by name.  
 

@@ -3,7 +3,7 @@ layout: article
 title: "The Witsand Observer Launches, Restoring Truth to a Town That Briefly Misplaced It"
 date: 2026-02-17 08:00:00 +0200
 author: The Editorial Board
-image: "assets/images/2026-02-28-witsand-observer-launches.png"
+image: "assets/images/2026-02-17-witsand-observer-launches.png"
 image_caption: "The Witsand Observer's headquarters"
 ---
 
